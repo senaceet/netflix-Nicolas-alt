@@ -1,0 +1,138 @@
+*{ margin: 0; padding: 0; border: 0; box-sizing: border-box; font-family: 'Noto Sans', sans-serif;}
+
+:root
+{
+    --netflix-color: #e50914;
+    --button-Continue: #0080ff;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+html,body
+{
+    background-image: url(https://i.ibb.co/Lgw71qc/login-the-crown-2-1500x1000.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+header
+{
+    padding: 25px 50px;
+    height: 100px;
+    width: 100%;
+}
+
+nav
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img
+{
+    height: 35px;
+    width: 106px;
+}
+
+.a--logoNav
+{
+    padding: 7px 17px;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--netflix-color);
+}
+
+.section--MensageContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.div--ContainerMesagge
+{
+    margin-top: -200px;
+    padding: 30px 45px;
+    background-color: #FAFAFA;
+    height: 348px;
+    width: 440px;
+}
+
+h1
+{
+    color: #333333;
+    font-size: 32px;
+}
+
+.p--content
+{
+    color: #333333;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.p--content2
+{
+    padding-bottom: 35px;
+}
+
+.a--Continue
+{
+    padding: 14px 130px;
+    color: white;
+    font-size: 20px;
+    background-color: var(--button-Continue);
+}
+
+
+footer
+{
+    padding-left: 130px;
+    color: gray;
+    height: 200px;
+    width: 100%;
+}
+.p-item a
+{
+    margin-left: 5px;    
+}
+.p-item
+{
+    padding-bottom: 50px;
+}
+.div--aContainer
+{
+    margin-left: -145px;
+    padding-bottom: 20px;
+}
+.a-item
+{
+
+    cursor: pointer;
+    color: gray;
+    margin-left: 150px;
+}
+
+.a-item:hover
+{
+    border-bottom: 1px solid gray;
+}
+
+
+
+select
+{
+    background-color: transparent;
+    color: gray;
+    padding: 15px  30px;
+    border: 1px solid gray;
+}
