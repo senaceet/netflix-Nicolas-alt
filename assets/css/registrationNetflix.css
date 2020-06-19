@@ -1,0 +1,385 @@
+*{margin: 0; padding: 0; border: 0; box-sizing: border-box; font-family: 'Noto Sans', sans-serif;}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    height: 91px;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.img--Logo
+{
+    height: 45px;
+    width: 167px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.a--SignIn
+{
+    font-weight: 700;
+    font-size: 19px;
+    color: #333;
+}
+
+
+.Section--CarruselContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div--Card
+{
+    margin-top: 100px;
+    height: 400px;
+    width: 402px;
+}
+
+.p--Steps
+{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.span--Number
+{
+    font-style: bold;
+}
+
+.h1--Step1
+{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.p--TextDescription
+{
+    text-align: justify;
+    width: 300px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+.button--NetflixContinue
+{
+    height: 48px;
+    font-weight: 700;
+    font-size: 17px;
+    width: 80%;
+    margin-left: 50px;
+    color: #ffffff;
+    background-color: #e50914;
+}
+/*Step 2 ==========================*/
+.p--Steps,
+.h2--TitlePlan,
+.p--TextDescription,
+.p--SubInfo
+
+.i--Svg
+{color:#a6a6a6;}
+
+.i--svgPlus
+{
+    transform: rotate(45deg);
+}
+
+.div--step2, .ul--Container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.li--PlansItem
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.i--check
+{
+    color: #e50914;
+}
+
+.button--SeePlans
+{
+    font-size: 17px;
+    padding: 12px 70px;
+    color: white;
+    background-color: #e50914;
+}
+/*Container table pay*/
+.div--TableSection
+{
+    height: 100%;
+    width: 100%;
+}
+
+/*Table type of pay =================*/
+
+.div--ShapesCost--fixed
+{
+    display: flex;
+    padding-left: 53%;
+    height: 144px;
+    width: 100%;
+}
+
+table
+{
+    width: 70%;
+    margin: auto;
+}
+tr,td
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    min-height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+
+.div--ShapeCost
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 800;
+    margin-right: 20px;
+    background-color: #e50914;
+    height: 120px;
+    width: 120px;
+}
+
+.div--ShapeCost--clip
+{
+    
+    clip-path: polygon(100% 0, 100% 88%, 58% 88%, 50% 100%, 41% 88%, 0 88%, 0 0);
+}
+
+.p--SubInfo
+{
+    color: #737373;
+    font-size: 13px;
+}
+
+.button--NetflixContinue2
+{
+    height: 48px;
+    font-weight: 700;
+    font-size: 17px;
+    width: 25%;
+    margin-left: 37%;
+    color: #ffffff;
+    background-color: #e50914;
+}
+
+/* pay method*/
+
+.div--ContainerPay
+{
+    width: 100%;
+}
+.div--secure
+{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://i.ibb.co/yNJHGYf/2020-06-12-09-51.png);
+    background-size: cover;
+}
+
+.h2pay
+{
+    font-size: 20px;
+}
+
+.div--containerMethods--auto
+{
+    padding-top: 100px;
+    height: 500px;
+    width: 50%;
+    margin: auto;
+}
+.i--lock
+{
+    color: #FFB53F;
+}
+.span--secure
+{
+    margin-left: 75%;
+    font-size: 13px;
+}
+.div--PayMethod
+{
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div--PayMethod--work
+{
+    cursor: pointer;
+}
+.div--visa,
+.div--expre,
+.div--master,
+.div--otr,
+.div--ban,
+.div--gift
+{
+    height: 30px;
+    width: 45px;
+    margin-left: -20px;  
+    background-size: cover;
+}
+
+
+.div--visa
+{
+    background-image: url(https://i.ibb.co/bRCxRxr/visa-v2.jpg);
+}
+.div--master
+{
+    background-image: url(https://i.ibb.co/C7tJDTK/mastercard-v2.jpg);
+}
+
+.div--expre
+{
+    background-image: url(https://i.ibb.co/PmqnFsL/amex-v2.jpg);
+}
+
+.div--otr
+{
+    background-image: url(https://i.ibb.co/023XfVN/icon-dinersclub-v2.png);
+}
+
+.div--ban
+{
+    background-image: url(https://i.ibb.co/L6fPzjf/bank.jpg);
+}
+.div--gift
+{
+    background-image: url(https://i.ibb.co/svbv7Cz/netflix-gift-card-v2.jpg);
+}
+
+/*div--giftCart =====================*/
+
+.div--giftCart
+{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+.inputCard
+{
+    padding: 20px 85px;
+    border: solid 1px #8c8c8c;
+    margin-bottom: 10px;
+}
+
+.h2giftCard
+{
+    margin: 20px 0;
+}
+
+.divCosto
+{
+    background-color: #f4f4f4;
+    padding: 20px 10px;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.p--costo
+{
+    width: 300px;
+}
+
+.a--LinkCosto
+{
+    margin-left: 100px;
+}
+
+.a--SubmitButton
+{
+    margin: 540px 0;
+    padding: 20px 60px;
+    color: #ffffff;
+    background-color: #e50914;
+}
+
+.p--Message
+{
+    margin-top: 20px;
+}
+
+
+
+
+/*Footer ===========================*/
+footer
+{
+    margin-top: 50px;
+    border-top: 1px solid #e5e5e5;
+    height: 213px;
+    width: 100%;
+    background-color: #f3f3f3;
+    padding-left: 67px;
+    padding-top: 30px;
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.a--footer, .p--footer
+{
+    color: #757575;;
+}
+
+.p--footer
+{
+    margin-bottom: 30px;
+}
+.a--footerInformation
+{
+    font-size: 15px;
+}
+
+select
+{
+    border: 1px solid #a6a6a6;
+    margin-top: 20px;
+    background-color: #ffffff;
+    height: 48px;
+    width: 113px;
+}

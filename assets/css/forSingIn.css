@@ -1,0 +1,256 @@
+*{ margin: 0; padding: 0; border: 0; box-sizing: border-box; font-family: 'Noto Sans', sans-serif;}
+
+:root
+{
+    --netflix-color: #e50914;
+}
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),
+    url(https://i.ibb.co/Fs5JmJ0/CO-es-20200302-popsignuptwoweeks-perspective-alpha-website-large.jpg);
+    background-size: 150% 150%;
+    height: 120vh;
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+}
+
+header
+{
+    padding: 25px 50px;
+    height: 100px;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,6,6,0.5102415966386555) 93%, rgba(0,0,0,1) 100%);
+}
+
+
+.img--Logo
+{
+    height: 45px;
+    width: 167px;
+}
+
+.section--Container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+form
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding-top: 60px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.75);
+    height: 660px;
+    width: 450px;
+}
+
+h1
+{
+    font-size: 32px;
+    margin-bottom: 28px;
+    color: white;
+}
+
+.div--center
+{
+    width: 314px;
+}
+
+.input--Data
+{
+    color: black;
+    border-radius: 3px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    width: 100%;
+    background-color: #333;
+}
+
+.input--submit
+{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: white;
+    font-size: 16px;
+    background-color: var(--netflix-color);
+}
+
+.div--OptionRemember
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.label--rememberMe, .a--FormHelp
+{
+    font-size: 13px;
+}
+
+.a--FormHelp
+{
+    text-decoration: none;
+    color: gray;
+}
+label
+{
+    color: gray;
+}
+
+.input-check:checked
+{
+    background-color: black;
+}
+
+.a--LoginFb
+{
+    margin-top: 55px;
+    display: flex;
+    width: 100%;
+}
+
+.div--FacebookImage
+{
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    background-image: url(https://i.ibb.co/SV5pxcX/download.png);
+    background-size: cover;
+}
+
+.a--LoginFb
+{
+    color: #737373;
+    font-size: 13px;
+}
+
+.p--signUp
+{
+    margin-top: 16px;
+    color: #737373;
+}
+.a--SignUp
+{
+    margin-left: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.p--captcha
+{
+    margin-top: 16px;
+    font-size: 13px;
+    color: #8c8c8c;
+}
+.a--captcha
+{
+    color: #0071eb;
+}
+
+footer
+{
+    margin-top: 250px;
+    padding-left: 172px;
+    padding-top: 20px;
+    background: rgba(0,0,0,.75);
+    height: 200px;
+    width: 100%;
+}
+
+.h2--footerQuestions,
+.a--Footer
+{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+}
+
+.h2--footerQuestions
+{
+    margin-bottom: 20px;
+}
+
+.a--Footer
+{
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.a--Footer:hover
+{
+    text-decoration: solid;
+}
+
+select
+{
+    background-color: transparent;
+    color: gray;
+    border: 1px solid gray;
+    padding: 20px 40px;
+    position: relative;
+    top: 70px;
+    right: 470px;
+}
+
+@media screen and (max-width: 740px)
+{
+    html,body
+    {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+    }
+    header {
+        top: 0;
+        position: absolute;
+        padding: 25px 32px;
+        height: 100px;
+        width: 100%;
+        background-color: black;
+    }
+    .img--Logo
+    {
+        height: 32px;
+        width: 75px;
+    }
+    .section--Container
+    {
+        height: 100%;
+    }
+    .div--center 
+    {
+        padding: 30px 30px;
+        width: 100%;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        padding-top: 60px;
+        border-radius: 5px;
+        background-color: black;
+        height: 100%;
+        width: 100%;
+    }
+
+    .a--LoginFb {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+    }
+    footer {
+        margin-top: 0;
+        border-top: 1px solid gray;
+        padding-left: 47px;
+        background-color: black;
+    }
+}

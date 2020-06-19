@@ -1,0 +1,497 @@
+*
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body
+{
+
+    background-color: black;
+    height: 300vh;
+    width: 100%;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.header--container
+{
+    padding-top: 20px;
+    padding-left: 50px;
+    position: fixed;
+    z-index: 20;
+    height: 70px;
+    width: 100%;
+    background: transparent;
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,6,6,0.5102415966386555) 66%, rgba(0,0,0,1) 100%);
+}
+
+.nav--container
+{
+    display: flex;
+    align-self: center;
+}
+
+ul
+{
+    display: flex;
+}
+
+.img--HeaderNavLogo
+{
+    height: 25px;
+    width: 90px;
+}
+
+
+li a
+{
+    color: #ADADAC;
+}
+.img--user
+{
+    position: relative;
+    bottom: 5px;
+    height: 32px;
+    width: 32px;
+}
+
+.i--RowDownMenu
+{
+    font-size: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
+.div--ContainerMenu
+{
+    width: 100%;
+    padding: 0 50px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul--container .li--item
+{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.ul--ElementsContainer .li--Elements
+{
+    margin-right: 30px;
+}
+
+i
+{
+    color: white;
+}
+/* Menú close sesion*/
+
+.li--itemContainer
+{
+    cursor: pointer;
+}
+
+.ul--SubMenu--none
+{
+    right: 0.3%;
+    position: absolute;
+    background-color: #000000;
+    width: 156px;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    clip-path: polygon(55% 0, 62% 4%, 100% 4%, 100% 100%, 0 100%, 0 4%, 47% 4%);
+    display: none;
+}
+
+.ul--SubMenu--block
+{
+    display: block;
+}
+
+.div--SubMenuUser
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.img--MenuUser
+{
+    margin-right: 10px;
+    height: 32px;
+    width: 32px;
+}
+
+.p--SubMenuNameUser
+{
+    font-size: 13px;
+    color: #ffffff;
+}
+.a--SubMenu
+{
+    font-weight: 800;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.a--SubMenuManage
+{
+    font-size: 10px;
+}
+
+.li--SubMenuManage
+{
+    margin-top: auto;
+}
+
+.li--SubMenu
+{
+    margin-top: auto;
+    border-top: 1px solid grey;
+}
+
+
+/*First View*/
+.div--principalSerie
+{
+    height: 100vh;
+    width: 100%;
+}
+
+
+video
+{
+    width: 100%;
+}
+
+.div--PrincipalSerieInfo
+{
+    position: absolute;
+    top: 0;
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+}
+
+.div--MiniLogoNetflixSerie
+{
+    background-image: url(https://i.ibb.co/BNDv0GD/asfd.png);
+    background-size: cover;
+    height: 25px;
+    width: 100px;
+
+}
+
+h1, p
+{
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.p--Description
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.spanTitle
+{
+    margin-left: 10px;
+}
+
+.buttonContentSerie
+{
+    border-radius: 2px;
+    color: white;
+    padding: 8px 20px;
+}
+
+.buttonContent1
+{
+    padding: 5px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.buttonContent2{
+    
+    position: relative;
+    bottom: 3px;
+    padding: 10px 25px; 
+    background-color: rgba(133,133,133,0.6);
+}
+
+.span--Age{
+    position: relative;
+    left: 180%;
+    bottom: 160px;
+    border-left: solid 3px #dcdcdc;
+    background-color: rgba(51,51,51,.6);
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80px;
+    color: white;
+}
+
+/*Carrusel  zone */
+.p--TextCategory
+{
+    color:white;
+    font-size: 20px;
+    z-index: 10;
+    padding-left: 50px;
+}
+
+.sectionCarruselAnime,
+.sectionCarruselTrendingNow,
+.sectionCarruselTvSciF,
+.sectionCarruselMyList
+{
+    padding-left: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*Items pequeños ======================*/
+.carouselContainerSmall
+{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 2000px;
+}
+.carouselItemSmall {
+    width: 200px;
+    height: 137px;
+    background-image: url(https://i.ibb.co/JK66wwm/2020-06-16-15-39.png);
+    background-size: 100% 100%;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 1s all;
+    transform-origin: center left;
+}
+
+.carouselItemSmall:hover ~ .carouselItemSmall {
+    transform: translate3d(80px, 0, 0);
+}
+
+.carouselItemSmall:hover {
+    transform: scale(1.4);
+}
+.carouselItemSmall:hover .div--InfoSerie--Hover
+{
+    display: block;
+}
+
+/*Items medium ==================*/
+.sectionCarruselTrendingNow
+{
+    height: 480px;
+}
+
+/*Rail =======================*/
+.div--carouselContainer
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 2000px;
+}
+.div--carouselItemMedium {
+    width: 200px;
+    height: 400px;
+    padding-top: 200px;
+    background-image: url(https://i.ibb.co/1KRwYFy/mr-robot-poster.jpg);
+    background-size: 100% 100%;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 1s all;
+    transform-origin: center left;
+}
+.div--carouselItemMedium:hover ~ .div--carouselItemMedium {
+    transform: translate3d(40px, 0, 0);
+}
+
+ .div--carouselItemMedium:hover {
+    transform: scale(1.2);
+}
+.div--carouselItemMedium:hover .div--InfoSerie--Hover
+{
+    display: block;
+}
+
+.img--ItemContainer
+{
+    height: 20px;
+    width: 20px;
+}
+/*Cards info hover ====================================*/
+.div--InfoSerie--Hover
+{
+    padding-left: 20px;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.div--PlayButton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.i--PlayButton
+{
+    color: #000;
+}
+
+/*Text Info ============================================*/
+.h3--InfoTitle
+{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.p--InfoCard
+{
+    color: white;
+    font-size: 15px;
+}
+
+.span--InfoCard
+{
+    width: 20px;
+    border: 1px solid gray;
+}
+
+.ul--InfoCard
+{
+
+    display: flex;
+}
+
+.li--InfoCard
+{
+    color: #ffffff;
+    margin-right: 5px;
+    font-size: 13px;
+}
+/*Bigger image middle content =========================*/
+
+.section--Bigger
+{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.imgBiggBackground
+{
+    height: 500px;
+    filter: blur(10px) opacity(30%);
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+
+.div--BiggerMiddle
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    width: 50%;
+    padding-right: 200px;
+}
+.div--BiggerVideo
+{
+    padding: 10px;
+}
+.video--Bigger
+{
+    height: 50%;
+}
+.img--logoBiggerMiddle
+{
+    transform: scale(1.3);
+}
+
+.p--BiggerTitle
+{
+    font-size: 18px;
+}
+
+.button--Bigger
+{
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 7px 18px;
+    font-size: 17px;
+    font-weight: 800;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.button--BiggerMoreInfo
+{
+    background-color: rgba(133,133,133,0.6);
+    color: #ffffff;
+}
+
+/*Footer =============================*/
+
+footer
+{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    padding-left: 120px;
+}
+.div--FooterMedia
+{
+    height: 50px;
+    width: 100%;
+}
+.div--FooterLinkPages
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+}
+.a--FooterLinkPages
+{
+    color: gray;
+}
